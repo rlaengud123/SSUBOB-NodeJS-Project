@@ -22,14 +22,14 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(compression());
 app.use(session({
-    secret: 'asadlfkj!@#!@#dfgasdg',
+    secret: Check Here,
     resave: false,
     saveUninitialized: true,
     store:new MySQLStore({
         host : 'localhost',
         port : 3306,
         user:'root',
-        password : 'dngkgk11',
+        password : Check Here,
         database : 'ssubob'
     })
 }))
